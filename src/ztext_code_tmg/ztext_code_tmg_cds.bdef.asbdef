@@ -1,0 +1,20 @@
+managed implementation in class zbp_text_code_tmg_cds unique;
+strict ( 2 );
+
+define behavior for ZTEXT_CODE_TMG_CDS //alias <alias_name>
+persistent table ztext_code_tmg
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  mapping for ztext_code_tmg{
+    TaxCode = taxcode;
+    ConditionType = conditiontype;
+    Description =  description;
+    TransactionKey = transaction_key;
+    Percentage = percentage;
+  }
+}

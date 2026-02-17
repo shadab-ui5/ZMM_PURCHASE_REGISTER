@@ -1,0 +1,57 @@
+//@Metadata.layer: layer
+@Metadata.layer: #CORE
+@UI:{
+headerInfo:{
+                typeNamePlural: 'Data Defination for Text Code TMG',
+                typeName: 'Data Defination for Text Code TMG',
+                title:{ value: 'TaxCode'}
+           }
+}
+
+annotate entity ZTEXT_CODE_TMG_CDS
+    with 
+{
+      @UI.facet: [
+               {
+                   id:              'TaxCode',
+                   purpose:         #STANDARD,
+                   type:            #IDENTIFICATION_REFERENCE,
+                   label:           'TaxCode',
+                   position:        10
+                } ,
+                {
+                   id:              'TaxCode',
+                   purpose:         #STANDARD,
+
+                   label:           'TaxCode',
+                   position:        10
+                }
+             ]
+
+  @UI: {
+  lineItem: [{ position: 10 } ],
+  identification: [ { label: 'TaxCode',position: 10 } ] }
+  TaxCode;
+
+  @UI: {
+  lineItem: [{ position: 20 } ],
+  identification: [ {label: 'TransactionKey', position: 20 } ] }
+  TransactionKey;
+
+
+  @UI: {
+  lineItem: [{ position: 30 } ],
+  identification: [ { label: 'ConditionType', position: 30 } ] }
+  ConditionType;
+
+  @UI: {
+  lineItem: [{ position: 40 } ],
+  identification: [ { label: 'Description', position: 40 } ] }
+  Description;
+
+  @UI: {
+  lineItem: [{ position: 50 } ],
+  identification: [ { label: 'Percentage', position: 50 } ] }
+  Percentage;
+    
+}

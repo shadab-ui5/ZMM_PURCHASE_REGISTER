@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Purchase Register Report – MM",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Purchase Register Report – MM"
+  },
+  "ui5AppDetails": {
+    "appId": "mmpurreg.zmmpurreg"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_4905A935D2817BF20387F61A8462F9614427A95B_TM",
+    "semanticObject": "zmmpurg",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_4905A935D2817BF20387F61A8462F9614427A95B_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Purchase Register Report – MM"
+      }
+    }
+  ]
+}

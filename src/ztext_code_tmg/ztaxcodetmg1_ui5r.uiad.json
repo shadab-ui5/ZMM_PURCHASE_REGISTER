@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Maintain Tax Code Details",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Maintain Tax Code Details"
+  },
+  "ui5AppDetails": {
+    "appId": "ztaxcodetmg1"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_8B3A148746EC7C76B0A3214D5D7FA6E18F4F9508_TM",
+    "semanticObject": "ztaxcodetmg1",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_8B3A148746EC7C76B0A3214D5D7FA6E18F4F9508_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Maintain Tax Code Details"
+      }
+    }
+  ]
+}

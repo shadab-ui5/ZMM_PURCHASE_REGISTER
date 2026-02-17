@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZMM_CLASS_PUR'
+define service ZMM_CLASS_PUR {
+  expose ZMM_PURCHASE_REGISTER_CDS;
+}
